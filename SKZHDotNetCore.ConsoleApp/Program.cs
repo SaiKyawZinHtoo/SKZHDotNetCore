@@ -23,12 +23,18 @@ Console.WriteLine("Hello, World!");
 ////adoDotNetExample.Update();
 //adoDotNetExample.Delete();
 
-DapperExample dapperExample = new DapperExample();
-//dapperExample.Read();
-//dapperExample.Create("addf", "asdf","asdf");
-//dapperExample.Update(5,"test for update1", "test for update 2", "test for update 3");
-//dapperExample.Delete(14);
-dapperExample.Edit(1);
-dapperExample.Edit(2);
+//DapperExample dapperExample = new DapperExample();
+////dapperExample.Read();
+////dapperExample.Create("addf", "asdf","asdf");
+////dapperExample.Update(5,"test for update1", "test for update 2", "test for update 3");
+////dapperExample.Delete(14);
+//dapperExample.Edit(1);
+//dapperExample.Edit(2);
+
+EFCoreExample eFCoreExample = new EFCoreExample();
+//eFCoreExample.Read();
+//eFCoreExample.Create("testing Create", "testing Create", "testing Create");
+//eFCoreExample.Delete(7);
+eFCoreExample.Update(6, "testing", "testing", "testing");
 
 Console.ReadKey();
