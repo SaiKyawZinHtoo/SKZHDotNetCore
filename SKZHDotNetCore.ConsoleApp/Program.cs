@@ -16,11 +16,19 @@ Console.WriteLine("Hello, World!");
 
 //nuget package download ya mal
 
-AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
-//adoDotNetExample.Read();
-//adoDotNetExample.Create();
-//adoDotNetExample.Edit();
-//adoDotNetExample.Update();
-adoDotNetExample.Delete();
+//AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
+////adoDotNetExample.Read();
+////adoDotNetExample.Create();
+////adoDotNetExample.Edit();
+////adoDotNetExample.Update();
+//adoDotNetExample.Delete();
+
+DapperExample dapperExample = new DapperExample();
+//dapperExample.Read();
+//dapperExample.Create("addf", "asdf","asdf");
+//dapperExample.Update(5,"test for update1", "test for update 2", "test for update 3");
+//dapperExample.Delete(14);
+dapperExample.Edit(1);
+dapperExample.Edit(2);
 
 Console.ReadKey();
