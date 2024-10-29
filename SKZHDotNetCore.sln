@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SKZHDotNetCore.DataBase", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SKZHDotNetCore.ConsoleApp2", "SKZHDotNetCore.ConsoleApp2\SKZHDotNetCore.ConsoleApp2.csproj", "{CAEFFECF-485F-4A1C-8A4B-BDAF2A3524AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SKZHDotNetCore.RestApi", "SKZHDotNetCore.RestApi\SKZHDotNetCore.RestApi.csproj", "{CE691C29-6CB7-453B-ABAC-A720570CA689}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{CAEFFECF-485F-4A1C-8A4B-BDAF2A3524AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAEFFECF-485F-4A1C-8A4B-BDAF2A3524AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAEFFECF-485F-4A1C-8A4B-BDAF2A3524AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE691C29-6CB7-453B-ABAC-A720570CA689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE691C29-6CB7-453B-ABAC-A720570CA689}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE691C29-6CB7-453B-ABAC-A720570CA689}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE691C29-6CB7-453B-ABAC-A720570CA689}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
