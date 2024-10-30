@@ -10,11 +10,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SKZHDotNetCore.DataBase", "SKZHDotNetCore.DataBase\SKZHDotNetCore.DataBase.csproj", "{C376D222-ED39-48DF-9C6B-36A631A9380E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SKZHDotNetCore.DataBase", "SKZHDotNetCore.DataBase\SKZHDotNetCore.DataBase.csproj", "{C376D222-ED39-48DF-9C6B-36A631A9380E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SKZHDotNetCore.ConsoleApp2", "SKZHDotNetCore.ConsoleApp2\SKZHDotNetCore.ConsoleApp2.csproj", "{CAEFFECF-485F-4A1C-8A4B-BDAF2A3524AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SKZHDotNetCore.ConsoleApp2", "SKZHDotNetCore.ConsoleApp2\SKZHDotNetCore.ConsoleApp2.csproj", "{CAEFFECF-485F-4A1C-8A4B-BDAF2A3524AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SKZHDotNetCore.RestApi", "SKZHDotNetCore.RestApi\SKZHDotNetCore.RestApi.csproj", "{CE691C29-6CB7-453B-ABAC-A720570CA689}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SKZHDotNetCore.RestApi", "SKZHDotNetCore.RestApi\SKZHDotNetCore.RestApi.csproj", "{CE691C29-6CB7-453B-ABAC-A720570CA689}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SKZHDotNetCore.Shared", "SKZHDotNetCore.Shared\SKZHDotNetCore.Shared.csproj", "{26F7C4B0-85D4-4683-89A9-FA946A138BF2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,6 +40,10 @@ Global
 		{CE691C29-6CB7-453B-ABAC-A720570CA689}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE691C29-6CB7-453B-ABAC-A720570CA689}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE691C29-6CB7-453B-ABAC-A720570CA689}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26F7C4B0-85D4-4683-89A9-FA946A138BF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26F7C4B0-85D4-4683-89A9-FA946A138BF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26F7C4B0-85D4-4683-89A9-FA946A138BF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26F7C4B0-85D4-4683-89A9-FA946A138BF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
