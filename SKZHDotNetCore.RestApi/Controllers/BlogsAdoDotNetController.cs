@@ -139,8 +139,6 @@ namespace SKZHDotNetCore.RestApi.Controllers
             return Ok(message);
         }
 
-
-
         [HttpPut("{id}")]
         public IActionResult UpdateBlog(int id, BlogViewModel blog)
         {

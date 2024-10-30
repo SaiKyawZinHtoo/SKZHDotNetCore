@@ -110,7 +110,7 @@ namespace SKZHDotNetCore.ConsoleApp
             {
                 string query = "selected * from tbl_blog where DeleteFlag = 0 and BlogId = @BlogId;";
                 var item = db.Query<BlogDataModel>(query, new BlogDataModel
-                {
+                { 
                     BlogId = id
                 }).FirstOrDefault();//it here show me incorrect syntax near 
 
