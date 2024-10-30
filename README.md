@@ -24,3 +24,27 @@ windows
 UI + Business Logic + Data Access => Database
 
 dotnet ef dbcontext scaffold "Server=DESKTOP-MVSU0HC;DataBase=SKZHDotNet;User Id=sa;Password=sasa@123;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -o Model -c AppDbContext -f
+
+Visual Studio 2022 Installation
+Microsoft SQL Server 2022
+SSMS (SQL Server Management System)
+
+C# Basic
+SQL Basic
+
+Console App (Create Project)
+DTO(data transfer Object)
+Nuget Package
+ADO.Net
+Dapper
+- ORM
+- Data Model
+- AsNoTracking
+EFCore
+- Database First
+- AppDbContext
+REST API (ASP.Net Core Web API)
+- Swagger
+- Postman
+- Http Method
+- Http Status Code 
